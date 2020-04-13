@@ -1,0 +1,33 @@
+{
+  "homepage": "https://github.com/patwil15375.io/daft",
+  "name": "pracadomowa1",
+  "version": "1.0.0",
+  "description": "daftcode frontend",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build", 
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dafacademy"
+  ],
+  "author": "Patrycja Wilczyńska",
+  "license": "ISC",
+  "dependencies": {
+    "package": "^1.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-loader": "^8.1.0",
+    "file-loader": "^6.0.0",
+    "gh-pages": "^2.2.0",
+    "html-webpack-plugin": "^4.2.0",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
